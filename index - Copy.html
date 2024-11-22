@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RND Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Fuse.js dari file lokal -->
+    <script src="js/fuse.min.js"></script>
+    <script src="js/axios.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>RND Ecommerce</h1>
+    </header>
+
+    <!-- Search Bar -->
+    <section id="search-section">
+        <input type="text" id="search" placeholder="Cari produk..." autocomplete="off">
+        <ul id="suggestions-list"></ul>
+    </section>
+
+    <!-- Kategori -->
+    <section id="main-categories">
+        <h2>Kategori Utama</h2>
+        <ul id="main-category-ul"></ul>
+    </section>
+
+    <!-- Kategori -->
+    <section id="categories">
+        <h2>Kategori <span id="category-name"></span></h2>
+        <ul id="category-ul"></ul>
+    </section>
+
+    <!-- Product List -->
+    <section id="product-list">
+        <h2>Produk <span id="product-name"></span></h2>
+        <ul id="product-list-ul"></ul>
+    </section>
+
+    <!-- Include Main Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
